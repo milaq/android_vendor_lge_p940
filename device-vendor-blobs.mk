@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/lge/p940/proprietary/sensors.omap4.so:system/lib/hw/sensors.omap4.so
 
+PRODUCT_COPY_FILES += \
+    vendor/lge/p940/proprietary/lge.cer:system/etc/cert/lge.cer
+
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/pvrsrvinit_SGX540_120:system/vendor/bin/pvrsrvinit_SGX540_120 \
