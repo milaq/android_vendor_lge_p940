@@ -33,6 +33,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lge.cer:system/etc/cert/lge.cer
 
+# LG's fucking drm crap
+PRODUCT_COPY_FILES += \
+    vendor/lge/p940/proprietary/morningcall:system/bin/morningcall \
+    vendor/lge/p940/proprietary/libsecurityframework.so:system/lib/libsecurityframework.so \
+    vendor/lge/p940/proprietary/liblgdrm.so:system/lib/liblgdrm.so \
+    vendor/lge/p940/proprietary/libdrmframework.so:system/lib/libdrmframework.so \
+    vendor/lge/p940/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/lge/p940/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/p940/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/lge/p940/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/pvrsrvinit_SGX540_120:system/vendor/bin/pvrsrvinit_SGX540_120 \
@@ -42,9 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/p940/proprietary/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     vendor/lge/p940/proprietary/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd
-
-PRODUCT_COPY_FILES += \
-    vendor/lge/p940/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
@@ -69,7 +76,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libPVRScopeServices_SGX540_120.so:system/vendor/lib/libPVRScopeServices_SGX540_120.so \
     vendor/lge/p940/proprietary/libsrv_init_SGX540_120.so:system/vendor/lib/libsrv_init_SGX540_120.so \
     vendor/lge/p940/proprietary/libsrv_um_SGX540_120.so:system/vendor/lib/libsrv_um_SGX540_120.so \
-    vendor/lge/p940/proprietary/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so \
-    vendor/lge/p940/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/lge/p940/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/lge/p940/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
+    vendor/lge/p940/proprietary/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so
