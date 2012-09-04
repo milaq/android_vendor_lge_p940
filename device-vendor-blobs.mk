@@ -15,8 +15,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/ap_at_command:system/bin/ap_at_command \
-    vendor/lge/p940/proprietary/glgps:system/bin/glgps \
     vendor/lge/p940/proprietary/btld:system/bin/btld \
+    vendor/lge/p940/proprietary/hdcp-init:system/bin/hdcp-init \
     vendor/lge/p940/proprietary/immvibed_linear:system/bin/immvibed_linear
 
 PRODUCT_COPY_FILES += \
@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/sensors.omap4.so:system/lib/hw/sensors.omap4.so
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/p940/proprietary/glgps:system/bin/glgps \
     vendor/lge/p940/proprietary/lge.cer:system/etc/cert/lge.cer
 
 # LG's fucking drm crap
