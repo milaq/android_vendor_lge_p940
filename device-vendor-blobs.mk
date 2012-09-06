@@ -26,9 +26,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lge-ril.so:system/lib/lge-ril.so \
     vendor/lge/p940/proprietary/lib-lge-drm.so:system/lib/lib-lge-drm.so
 
+# audio
+PRODUCT_COPY_FILES += \
+    vendor/lge/p940/proprietary/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/lge/p940/proprietary/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so
+	
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/gps.omap4.so:system/lib/hw/gps.omap4.so \
-    vendor/lge/p940/proprietary/sensors.omap4.so:system/lib/hw/sensors.omap4.so
+    vendor/lge/p940/proprietary/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
+    vendor/lge/p940/proprietary/libmllite.so:system/lib/libmllite.so \
+    vendor/lge/p940/proprietary/libmlplatform.so:system/lib/libmlplatform.so \
+    vendor/lge/p940/proprietary/libmpl.so:system/lib/libmpl.so \
+    vendor/lge/p940/proprietary/libmpl_sys_jni.so:system/lib/libmpl_sys_jni.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/glgps:system/bin/glgps \
@@ -61,7 +70,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
-    vendor/lge/p940/proprietary/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so
+    vendor/lge/p940/proprietary/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
+    vendor/lge/p940/proprietary/libhdcp.so:system/lib/libhdcp.so \
+    vendor/lge/p940/proprietary/liblgehdmi.so:system/lib/liblgehdmi.so \
+    vendor/lge/p940/proprietary/liblgehdmi_jni.so:system/lib/liblgehdmi_jni.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
