@@ -44,11 +44,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lge.cer:system/etc/cert/lge.cer
 
 # LG's fucking drm crap
-PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += #\
     vendor/lge/p940/proprietary/morningcall:system/bin/morningcall \
     vendor/lge/p940/proprietary/libsecurityframework.so:system/lib/libsecurityframework.so \
     vendor/lge/p940/proprietary/liblgdrm.so:system/lib/liblgdrm.so \
-    vendor/lge/p940/proprietary/libdrmframework.so:system/lib/libdrmframework.so \
+    vendor/lge/p940/proprietary/libdrmframework.so:system/lib/libdrmframework.so
+
+PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/lge/p940/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/p940/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
