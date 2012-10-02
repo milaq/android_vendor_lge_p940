@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lib-lge-drm.so:system/lib/lib-lge-drm.so
 
 # audio
-PRODUCT_COPY_FILES += #\
+PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/lge/p940/proprietary/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so
 	
