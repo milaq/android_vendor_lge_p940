@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/glgps:system/bin/glgps \
+    vendor/lge/p940/proprietary/libini.so:system/lib/libini.so \
     vendor/lge/p940/proprietary/lge.cer:system/etc/cert/lge.cer
 
 # LG's fucking drm crap
