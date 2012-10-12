@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/lge/p940/proprietary/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
+    vendor/lge/p940/proprietary/camera.omap4.so:system/lib/hw/camera.omap4.so
     vendor/lge/p940/proprietary/libmllite.so:system/lib/libmllite.so \
     vendor/lge/p940/proprietary/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/lge/p940/proprietary/libmpl.so:system/lib/libmpl.so \
