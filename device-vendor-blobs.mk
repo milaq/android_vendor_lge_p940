@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libhdcp.so:system/lib/libhdcp.so \
     vendor/lge/p940/proprietary/liblgehdmi.so:system/lib/liblgehdmi.so \
     vendor/lge/p940/proprietary/liblgehdmi_jni.so:system/lib/liblgehdmi_jni.so
-
+	
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
     vendor/lge/p940/proprietary/libbltsville_ticpu.2.0.0.10.so:system/vendor/lib/libbltsville_ticpu.2.0.0.10.so \
@@ -101,3 +101,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libsrv_init_SGX540_120.so:system/vendor/lib/libsrv_init_SGX540_120.so \
     vendor/lge/p940/proprietary/libsrv_um_SGX540_120.so:system/vendor/lib/libsrv_um_SGX540_120.so \
     vendor/lge/p940/proprietary/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so
+
+# domx	
+PRODUCT_COPY_FILES += \
+    vendor/lge/p940/proprietary/libdomx.so:system/lib/libdomx.so \
+    vendor/lge/p940/proprietary/libion.so:system/lib/libion.so \
+    vendor/lge/p940/proprietary/libmm_osal.so:system/lib/libmm_osal.so \
+    vendor/lge/p940/proprietary/libOMX.ITTIAM.WMA.decode.so:system/lib/libOMX.ITTIAM.WMA.decode.so \
+    vendor/lge/p940/proprietary/libOMX.ITTIAM.WMALSL.decode.so:system/lib/libOMX.ITTIAM.WMALSL.decode.so \
+    vendor/lge/p940/proprietary/libOMX.ITTIAM.WMAPRO.decode.so:system/lib/libOMX.ITTIAM.WMAPRO.decode.so \
+    vendor/lge/p940/proprietary/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
+    vendor/lge/p940/proprietary/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
+    vendor/lge/p940/proprietary/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
+    vendor/lge/p940/proprietary/libOMX.TI.DUCATI1.VIDEO.DECODER.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so \
+    vendor/lge/p940/proprietary/libOMX.TI.DUCATI1.VIDEO.H264E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
+    vendor/lge/p940/proprietary/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
+    vendor/lge/p940/proprietary/libOMX_Core.so:system/lib/libOMX_Core.so \
+    vendor/lge/p940/proprietary/libtiutils.so:system/lib/libtiutils.so
