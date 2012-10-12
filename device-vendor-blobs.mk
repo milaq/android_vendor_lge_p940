@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
-    vendor/lge/p940/proprietary/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
     vendor/lge/p940/proprietary/libhdcp.so:system/lib/libhdcp.so \
     vendor/lge/p940/proprietary/liblgehdmi.so:system/lib/liblgehdmi.so \
     vendor/lge/p940/proprietary/liblgehdmi_jni.so:system/lib/liblgehdmi_jni.so
