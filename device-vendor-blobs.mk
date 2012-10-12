@@ -25,11 +25,14 @@ PRODUCT_COPY_FILES += \
 # ril
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lge-ril.so:system/lib/lge-ril.so \
+    vendor/lge/p940/proprietary/libril.so:system/lib/libril.so \
     vendor/lge/p940/proprietary/lib-lge-drm.so:system/lib/lib-lge-drm.so
 
 # more drm crap
-PRODUCT_COPY_FILES += #\
+PRODUCT_COPY_FILES += \
+    vendor/lge/p940/proprietary/lgdrmserver:system/bin/lgdrmserver \
     vendor/lge/p940/proprietary/liblgdrm.so:system/lib/liblgdrm.so \
+    vendor/lge/p940/proprietary/lgsecclkserver:system/bin/lgsecclkserver \
     vendor/lge/p940/proprietary/liblgsecclk.so:system/lib/liblgsecclk.so
 
 # audio
