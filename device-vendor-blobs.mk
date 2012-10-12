@@ -22,9 +22,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/spritebud:system/xbin/spritebud
 
+# ril
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lge-ril.so:system/lib/lge-ril.so \
     vendor/lge/p940/proprietary/lib-lge-drm.so:system/lib/lib-lge-drm.so
+
+# more drm crap
+PRODUCT_COPY_FILES += #\
+    vendor/lge/p940/proprietary/liblgdrm.so:system/lib/liblgdrm.so \
+    vendor/lge/p940/proprietary/liblgsecclk.so:system/lib/liblgsecclk.so
 
 # audio
 PRODUCT_COPY_FILES += \
@@ -43,13 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/glgps:system/bin/glgps \
     vendor/lge/p940/proprietary/libini.so:system/lib/libini.so \
     vendor/lge/p940/proprietary/lge.cer:system/etc/cert/lge.cer
-
-# LG's fucking drm crap
-PRODUCT_COPY_FILES += #\
-    vendor/lge/p940/proprietary/morningcall:system/bin/morningcall \
-    vendor/lge/p940/proprietary/libsecurityframework.so:system/lib/libsecurityframework.so \
-    vendor/lge/p940/proprietary/liblgdrm.so:system/lib/liblgdrm.so \
-    vendor/lge/p940/proprietary/libdrmframework.so:system/lib/libdrmframework.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
