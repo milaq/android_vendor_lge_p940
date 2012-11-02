@@ -36,7 +36,8 @@ PRODUCT_COPY_FILES += \
 
 # audio
 PRODUCT_COPY_FILES += \
-    vendor/lge/p940/proprietary/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so
+    vendor/lge/p940/proprietary/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
+    vendor/lge/p940/proprietary/libtinyalsa.so:system/lib/libtinyalsa.so
 	
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/gps.omap4.so:system/lib/hw/gps.omap4.so \
