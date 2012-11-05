@@ -15,7 +15,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/ap_at_command:system/bin/ap_at_command \
-    vendor/lge/p940/proprietary/btld:system/bin/btld \
     vendor/lge/p940/proprietary/hdcp-init:system/bin/hdcp-init
 
 PRODUCT_COPY_FILES += \
