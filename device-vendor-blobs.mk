@@ -15,6 +15,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/ap_at_command:system/bin/ap_at_command \
+    vendor/lge/p940/proprietary/rild:system/bin/rild \
     vendor/lge/p940/proprietary/hdcp-init:system/bin/hdcp-init
 
 PRODUCT_COPY_FILES += \
@@ -36,6 +37,7 @@ PRODUCT_COPY_FILES += \
 # audio
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
+    vendor/lge/p940/proprietary/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/lge/p940/proprietary/libtinyalsa.so:system/lib/libtinyalsa.so
 	
 PRODUCT_COPY_FILES += \
