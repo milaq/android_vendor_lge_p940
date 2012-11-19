@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
 # audio
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
-    vendor/lge/p940/proprietary/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/lge/p940/proprietary/audio_policy.omap4.so:system/lib/hw/audio_policy.omap4.so \
     vendor/lge/p940/proprietary/libtinyalsa.so:system/lib/libtinyalsa.so
 	
 PRODUCT_COPY_FILES += \
