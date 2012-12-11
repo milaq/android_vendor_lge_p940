@@ -69,13 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     vendor/lge/p940/proprietary/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd
 
-# wifi
-PRODUCT_COPY_FILES += \
-    vendor/lge/p940/proprietary/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
-    vendor/lge/p940/proprietary/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/p940/proprietary/fw_bcmdhd_mfgtest.bin:system/etc/firmware/fw_bcmdhd_mfgtest.bin \
-    vendor/lge/p940/proprietary/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin
-
 PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/lge/p940/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
