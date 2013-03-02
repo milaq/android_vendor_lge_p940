@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lib/liblgsecclk.so:system/lib/liblgsecclk.so \
     vendor/lge/p940/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/lge/p940/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/p940/proprietary/vendor/firmware/fw_bcmdhd_mfgtest.bin:system/vendor/firmware/fw_bcmdhd_mfgtest.bin \
     vendor/lge/p940/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/p940/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
     vendor/lge/p940/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
