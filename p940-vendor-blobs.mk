@@ -69,9 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/lib/libdomx.so:system/lib/libdomx.so \
     vendor/lge/p940/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/lge/p940/proprietary/lib/libmm_osal.so:system/lib/libmm_osal.so \
-    vendor/lge/p940/proprietary/lib/libOMX.ITTIAM.WMA.decode.so:system/lib/libOMX.ITTIAM.WMA.decode.so \
-    vendor/lge/p940/proprietary/lib/libOMX.ITTIAM.WMALSL.decode.so:system/lib/libOMX.ITTIAM.WMALSL.decode.so \
-    vendor/lge/p940/proprietary/lib/libOMX.ITTIAM.WMAPRO.decode.so:system/lib/libOMX.ITTIAM.WMAPRO.decode.so \
     vendor/lge/p940/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
     vendor/lge/p940/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
     vendor/lge/p940/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
