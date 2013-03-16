@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/vendor/bin/pvrsrvinit_SGX540_120:system/vendor/bin/pvrsrvinit_SGX540_120 \
     vendor/lge/p940/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/lge/p940/proprietary/vendor/lib/hw/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
+    vendor/lge/p940/proprietary/vendor/lib/hw/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
     vendor/lge/p940/proprietary/lib/libhdcp.so:system/lib/libhdcp.so \
     vendor/lge/p940/proprietary/lib/liblgehdmi.so:system/lib/liblgehdmi.so \
     vendor/lge/p940/proprietary/vendor/lib/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
