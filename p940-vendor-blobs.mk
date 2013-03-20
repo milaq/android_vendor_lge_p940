@@ -22,11 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p940/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p940/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
     vendor/lge/p940/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/p940/proprietary/lib/lib-lge-drm.so:system/lib/lib-lge-drm.so \
-    vendor/lge/p940/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
-    vendor/lge/p940/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
-    vendor/lge/p940/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
-    vendor/lge/p940/proprietary/lib/liblgsecclk.so:system/lib/liblgsecclk.so \
     vendor/lge/p940/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/lge/p940/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/p940/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
